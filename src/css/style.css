@@ -210,3 +210,27 @@ body {
     color: #686868;
     font-size: 38px;
 }
+
+/*مميزات المتجر*/
+
+#store-features {
+    box-shadow: 0 0 15px #EEF0EA;
+    background-image: url(../images/bg_features.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -30px;
+    background-size: auto 60%;
+    background-color: #fff;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    background-position: -10px -20px;
+}
+
+#store-features .feature>img {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#store-features .feature+.feature {
+    border-right: 1px solid #EEF0EA;
+}
