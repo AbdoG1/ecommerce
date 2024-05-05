@@ -12,3 +12,5 @@ document.querySelectorAll('.add-to-cart-btn').forEach(item => {
         alert('اضيف المنتج الى عربة الشراء')
     })
 })
+
+document.getElementById("copyright").innerHTML = 'جميع الحقوق محفوظة للمتجر سنة' + new Date().getFullYear();
