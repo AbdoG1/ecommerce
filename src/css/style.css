@@ -577,7 +577,70 @@ body {
     margin-bottom: 5px;
 }
 
+/*
+--------checkout page---------
+*/
 
+h1.custom-heading {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.custom-media img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ebebeb;
+    margin-left: 10px;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 15px;
+    font-size: 120%;
+    vertical-align: middle;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+}
+
+.custom-table h4 {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.custom-table th {
+    color: #c2c2c2;
+    font-weight: normal;
+}
+
+.custom-table th:first-child,
+.custom-table td:first-child {
+    width: 50%;
+}
+
+.costom-table th:not(:first-child),
+.custom-table td:not(:first-child) {
+    text-align: center;
+}
+
+.custom-table tfoot td {
+    border-bottom: none;
+    font-size: 150%;
+}
+
+#total-price-for-all-product {
+    color: #000;
+}
+
+.custom-btn-outline-danger {
+    background-color: transparent;
+    color: #ff3956;
+    border-color: #ff3956;
+}
+
+.custom-btn-outline-danger:hover {
+    color: #b9001b;
+    border-color: #b9001b;
+}
 
 
 
@@ -737,6 +800,10 @@ body {
         width: 100%;
         max-width: 100%;
         padding: 0 20px;
+    }
+
+    .hide-on-small {
+        display: none;
     }
 }
 
