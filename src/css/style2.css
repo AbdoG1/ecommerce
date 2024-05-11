@@ -1,0 +1,72 @@
+.custom-form-control, .dropdown .custom-btn {
+  border: 1px solid #EBEBEB;
+  box-shadow: none;
+  border-radius: 2px;
+  color: #868686;
+  height: 38px;
+  padding: 6px 16px 7px;
+  transition: all 0.3s ease;
+}
+
+.custom-form-control:focus {
+  border-color: #b9001b;
+  box-shadow: 0 0 2px 0 #b9001b;
+}
+
+.dropdown .custom-btn:hover {
+  background-color: #d4d4d4;
+  border: 1px solid #8c8c8c;
+  color: #ff3956;
+}
+
+.dropdown .custom-btn:focus {
+  color: #ff3956;
+}
+
+.custom-btn-outline-warning {
+  border-color: #f8ad47;
+  background-color: transparent;
+  color: #f8ad47;
+}
+
+.custom-btn-outline-warning:hover,
+.custom-btn-outline-warning:active,
+.custom-btn-outline-warning:focus,
+.custom-btn-outline-warning:focus,
+.custom-btn-outline-warning:hover {
+  border-color: #b86d07;
+  color: #b86d07;
+}
+
+.custom-btn-warning {
+  color: #000;
+  background-color: #f8ad47;
+  border-color: #f8ad47;
+}
+
+.custom-btn-warning:hover,
+.custom-btn-warning:active,
+.custom-btn-warning:focus,
+.custom-btn-warning:focus,
+.custom-btn-warning:hover {
+  background-color: #b86d07;
+  border-color: #b86d07;
+}
+
+.custom-btn-outline-danger {
+  background-color: transparent;
+  color: #ff3956;
+  border-color: #ff3956;
+}
+
+.custom-btn-outline-danger:hover {
+  color: #b9001b;
+  border-color: #b9001b;
+}
+
+.add-to-cart-btn {
+  color: #53ccd7;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=style2.css.map */

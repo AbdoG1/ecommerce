@@ -25,30 +25,7 @@ body {
     padding: 15px 0;
 }
 
-.custom-form-control, .dropdown .custom-btn {
-    border: 1px solid #EBEBEB;
-    box-shadow: none;
-    border-radius: 2px;
-    color: #868686;
-    height: 38px;
-    padding: 6px 16px 7px;
-    transition: all 0.3s ease;
-}
 
-.custom-form-control:focus {
-    border-color: #c2101E;
-    box-shadow: 0 0 2px 0 #c2101E;
-}
-
-.dropdown .custom-btn:hover {
-    background-color: #d4d4d4;
-    border: 1px solid #8c8c8c;
-    color: #ff3956;
-}
-
-.dropdown .custom-btn:focus {
-    color: #ff3956;
-}
 
 .dropdown .categories {
     border-right: 0 !important;
@@ -149,20 +126,7 @@ body {
     background-color: #F7F8F3;
 }
 
-.custom-btn-outline-warning {
-    border-color: #f8ad47;
-    background-color: transparent;
-    color: #f8ad47;
-}
 
-.custom-btn-outline-warning:hover,
-.custom-btn-outline-warning:active,
-.custom-btn-outline-warning:focus,
-.custom-btn-outline-warning:focus,
-.custom-btn-outline-warning:hover {
-    border-color: #b86d07;
-    color: #b86d07;
-}
 
 .sale {
     background-color: #53ccd7;
@@ -242,26 +206,6 @@ body {
     margin-bottom: 25px;
 }
 
-.custom-thumbnail img {
-    max-height: 250px;
-    width: 100%;
-    max-width: 250px;
-}
-
-.custom-thumbnail {
-    border: 2px solid #EEF0EA;
-    padding: 8px;
-    cursor: pointer;
-    margin-bottom: 50px;
-}
-
-.custom-thumbnail:hover {
-    border-color: #53ccd7;
-}
-
-.custom-thumbnail h4 {
-    font-size: 18px;
-}
 
 .price {
     color: #53ccd7;
@@ -291,10 +235,7 @@ body {
     opacity: 1;
 }
 
-.add-to-cart-btn {
-    color: #53ccd7;
-    background-color: #fff;
-}
+
 
 .custom-thumbnail .sale {
     position: absolute;
@@ -414,20 +355,9 @@ body {
     opacity: 0.6;
 }
 
-.custom-btn-warning {
-    color: #000;
-    background-color: #f8ad47;
-    border-color: #f8ad47;
-}
 
-.custom-btn-warning:hover,
-.custom-btn-warning:active,
-.custom-btn-warning:focus,
-.custom-btn-warning:focus,
-.custom-btn-warning:hover {
-    background-color: #b86d07;
-    border-color: #b86d07;
-}
+
+
 
 .newsletter form button {
     border-radius: 0;
@@ -593,54 +523,13 @@ h1.custom-heading {
     margin-left: 10px;
 }
 
-.custom-table th,
-.custom-table td {
-    padding: 15px;
-    font-size: 120%;
-    vertical-align: middle;
-    border-bottom: 1px solid #ebebeb;
-    border-top: 1px solid #ebebeb;
-}
 
-.custom-table h4 {
-    font-size: 18px;
-    margin: 12px 0;
-}
-
-.custom-table th {
-    color: #c2c2c2;
-    font-weight: normal;
-}
-
-.custom-table th:first-child,
-.custom-table td:first-child {
-    width: 50%;
-}
-
-.costom-table th:not(:first-child),
-.custom-table td:not(:first-child) {
-    text-align: center;
-}
-
-.custom-table tfoot td {
-    border-bottom: none;
-    font-size: 150%;
-}
 
 #total-price-for-all-product {
     color: #000;
 }
 
-.custom-btn-outline-danger {
-    background-color: transparent;
-    color: #ff3956;
-    border-color: #ff3956;
-}
 
-.custom-btn-outline-danger:hover {
-    color: #b9001b;
-    border-color: #b9001b;
-}
 
 
 /*---------payment page---------*/
@@ -716,6 +605,36 @@ h1.custom-heading {
 }
 
 
+/*---------contact page----------*/
+
+h3.custom-contact-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+ul.contact-info li {
+    margin-bottom: 10px;
+    list-style: none;
+    color: #f8ad47;
+}
+
+ul.contact-info li span {
+    color: #555;
+    margin-right: 5px;
+}
+
+.custom-btn-contact {
+    margin-bottom: 30px;
+    width: 90%;
+    margin-right: 30px;
+}
+
+.custom-btn-contact-send {
+    width: 30%;
+    
+}
+
 
  @media (max-width: 1399.98px) {
 
@@ -732,11 +651,6 @@ h1.custom-heading {
 
  }
 
- @media (max-width: 767.98px) and (max-width: 991.98px) {
-    .custom-thumbnail img {
-        height: 200px;
-    }
- }
 
 
 @media (max-width: 991.98px) {
@@ -802,9 +716,7 @@ h1.custom-heading {
         font-weight: 400;
     }
 
-    .custom-thumbnail img {
-        height: 250px;
-    }
+    
 
     #row-brands .carousel-inner img {
         width: 200px !important;
@@ -861,9 +773,7 @@ h1.custom-heading {
         height: 250px;
     }
 
-    #carousel-most-sold-alternative .custom-thumbnail img {
-        margin: auto;
-    }
+    
 
     #brand-logos img {
         max-width: 50px;
